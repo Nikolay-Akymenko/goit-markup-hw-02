@@ -5,36 +5,35 @@
 } */
 /* Главная страница */
 body {
-     background-color: #FFFFFF;
-     color: #757575;
+ background-color: #FFFFFF;
+ color: #757575;
+ font-family: Roboto, sans-serif;
+ letter-spacing: 0.03em;
 }
 
 ul {
-    list-style:none;
+ list-style:none;
 }
 
 a {
-    text-decoration: none;
+ text-decoration: none;
 }
 
-/* Button */
-.button {
-color:#ffffff ;
-background-color: #2196F3;
-}
-.button:hover {
-    background-color: #188CE8;
-}
-/* .button.primary{
-   .button.secondary{  */
-    
+
 /* Верхняя линия */
 /* Logo */
 .header {
-
+ letter-spacing: 0.02em;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
 }
 .logo {
  color: #2196F3;
+ font-family: Raleway, cursive;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.14;
 }
 .logoblk {
     color: #000000;
@@ -64,23 +63,66 @@ background-color: #2196F3;
 }
 /* Main */
 /* Hero */
+
 .hero {
     background-color: #2F303A;
-    
 }
+
 .hero-title {
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
+
+/* Button */
+.button {
+    color: #ffffff;
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.button:hover {
+    background-color: #188CE8;
+}
+/* .button.primary{
+   .button.secondary{  */
+
 /* Section feature (Особености)*/
+
 .section-feature{
 
 }
 .section-title {
     color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
 }
 .feature-list .title {
     color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    
 }
+.feature-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
 /* Work (Чем мы занимаемся) */
 .section-work {
 
@@ -95,6 +137,16 @@ background-color: #2196F3;
 }
 .team-name {
     color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 /* Footer */
 .footer {
@@ -106,6 +158,11 @@ background-color: #2196F3;
 }
 .address {
     color: #ffffff;
+    font-family: Roboto , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .address-link:hover,
 .address-link:focus{
